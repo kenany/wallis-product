@@ -1,5 +1,7 @@
 # wallis-product
 
+[![Build Status][travis-svg]][travis]
+
 Estimate pi with the [Wallis product][wallis].
 
 ## Example
@@ -32,4 +34,6 @@ Returns an approximation of pi using the Wallis infinite product up to a term of
 _Number_ `n`.
 
 
+   [travis]: https://travis-ci.org/KenanY/wallis-product
+   [travis-svg]: https://img.shields.io/travis/KenanY/wallis-product.svg
    [wallis]: https://en.wikipedia.org/wiki/Wallis_product
