@@ -1,5 +1,7 @@
 # wallis-product
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/KenanY/wallis-product.svg)](https://greenkeeper.io/)
+
 [![Build Status][travis-svg]][travis]
 
 Estimate pi with the [Wallis product][wallis].
