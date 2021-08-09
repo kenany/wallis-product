@@ -1,7 +1,7 @@
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
 
-var wallis = require('../');
+const wallis = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
@@ -9,9 +9,9 @@ test('exports a function', function(t) {
 });
 
 test('approaches pi', function(t) {
-  var last = 1;
-  var w;
-  for (var i = 0; i < 101; i++) {
+  let last = 1;
+  let w;
+  for (let i = 0; i < 101; i++) {
     w = wallis(i);
 
     // greater than last approximation
