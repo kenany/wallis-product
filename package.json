@@ -1,6 +1,6 @@
 {
   "name": "wallis-product",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Estimate pi with the Wallis product",
   "keywords": [
     "math"
