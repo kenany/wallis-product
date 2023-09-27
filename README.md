@@ -5,7 +5,7 @@ Estimate pi with the [Wallis product][wallis].
 ## Example
 
 ``` javascript
-var wallis = require('wallis-product');
+const wallis = require('wallis-product');
 
 wallis(10);
 // => 3.0677038066434976
@@ -23,7 +23,7 @@ $ npm install wallis-product
 ## API
 
 ``` javascript
-var wallis = require('wallis-product');
+const wallis = require('wallis-product');
 ```
 
 ### `wallis(n)`
