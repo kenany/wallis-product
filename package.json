@@ -22,7 +22,8 @@
   "scripts": {
     "lint": "eslint *.js test/*.js",
     "test": "tape test/index.js",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^11.0.1",
